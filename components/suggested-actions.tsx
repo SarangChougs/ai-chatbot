@@ -16,24 +16,24 @@ interface SuggestedActionsProps {
 function PureSuggestedActions({ chatId, append }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Next.js?',
-      action: 'What are the advantages of using Next.js?',
+      title: 'What are the tax considerations',
+      label: 'that have recently emerged in my location ?',
+      action: 'What are the tax consideraitons in my location that have emerged recently',
     },
     {
-      title: 'Write code that',
-      label: `demonstrates djikstra's algorithm`,
-      action: `Write code that demonstrates djikstra's algorithm`,
+      title: 'Help me calculate my tax',
+      label: `for current year`,
+      action: `Help me calculate my tax for current financial year.`,
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: 'I have been traveling a lot around Europe lately,',
+      label: `how can I optimise my tax related to this ?`,
+      action: `I have been traveling a lot around Europe lately, how can I optimise my tax related to this ?`,
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
+      title: 'I want to move to US for better quality of life',
+      label: 'What factors should I consider ?',
+      action: 'I want to move to US for better quality of life, what factors should I consider ?',
     },
   ];
 
