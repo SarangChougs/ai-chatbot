@@ -26,7 +26,7 @@ export const Overview = () => {
           width={100}
           height={76}
           className="hidden md:block"
-          alt="Screenshots of the dashboard project showing desktop version"
+          alt="Resibot icon"
           />
         </div>
       <p>
